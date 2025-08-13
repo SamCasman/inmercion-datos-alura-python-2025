@@ -65,7 +65,7 @@ with col_graf1:
             y='puesto',
             orientation='h',
             title="Top 10 puestos por salario medio",
-            labels={'salario_en_usd': 'MMedia salarial anual (USD)', 'puesto': ''}
+            labels={'salario_en_usd': 'Media salarial anual (USD)', 'puesto': ''}
         )
         grafico_cargos.update_layout(title_x=0.1, yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(grafico_cargos, use_container_width=True)
